@@ -5,13 +5,13 @@
 	https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.testcontainers</groupId>
+    <groupId>io.github.nillerr</groupId>
     <artifactId>testcontainers-jooq-codegen-maven-plugin</artifactId>
     <version>0.0.4</version>
     <packaging>maven-plugin</packaging>
     <name>testcontainers-jooq-codegen-maven-plugin</name>
     <description>jOOQ code generator using Testcontainers</description>
-    <url>https://github.com/testcontainers/testcontainers-jooq-codegen-maven-plugin</url>
+    <url>https://github.com/nillerr/testcontainers-jooq-codegen-maven-plugin</url>
     <inceptionYear>2023</inceptionYear>
 
     <licenses>
@@ -33,13 +33,18 @@
             <name>Roman Oborin</name>
             <email>deadok68@gmail.com</email>
         </developer>
+        <developer>
+            <id>contributor</id>
+            <name>Nicklas Jensen</name>
+            <email>nillerr@gmail.com</email>
+        </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/testcontainers/testcontainers-jooq-codegen-maven-plugin.git</connection>
+        <connection>scm:git:https://github.com/nillerr/testcontainers-jooq-codegen-maven-plugin.git</connection>
         <developerConnection>scm:git:https://github.com/testcontainers-jooq-codegen-maven-plugin.git
         </developerConnection>
-        <url>https://github.com/testcontainers/testcontainers-jooq-codegen-maven-plugin</url>
+        <url>https://github.com/nillerr/testcontainers-jooq-codegen-maven-plugin</url>
         <tag>HEAD</tag>
     </scm>
 

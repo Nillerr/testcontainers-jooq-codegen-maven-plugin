@@ -4,7 +4,7 @@ The `testcontainers-jooq-codegen-maven-plugin` simplifies the jOOQ code generati
 by using [Testcontainers](https://www.testcontainers.org/) and applying database migrations.
 
 [![Build](https://github.com/testcontainers/testcontainers-jooq-codegen-maven-plugin/actions/workflows/build.yml/badge.svg)](https://github.com/testcontainers/testcontainers-jooq-codegen-maven-plugin/actions/workflows/build.yml)
-![Maven Central](https://img.shields.io/maven-central/v/org.testcontainers/testcontainers-jooq-codegen-maven-plugin?label=latest-version)
+![Maven Central](https://img.shields.io/maven-central/v/io.github.nillerr/testcontainers-jooq-codegen-maven-plugin?label=latest-version)
 
 ## Summary
 
@@ -168,7 +168,7 @@ Example with `PostgreSQL` and minimal configuration with `Flyway` and `JOOQ`
 ```xml
 
 <plugin>
-    <groupId>org.testcontainers</groupId>
+    <groupId>io.github.nillerr</groupId>
     <artifactId>testcontainers-jooq-codegen-maven-plugin</artifactId>
     <version>${testcontainers-jooq-codegen-maven-plugin.version}</version>
     <dependencies>
