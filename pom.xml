@@ -267,6 +267,22 @@
                 </configuration>
             </plugin>
             <plugin>
+                <groupId>org.simplify4u.plugins</groupId>
+                <artifactId>sign-maven-plugin</artifactId>
+                <version>1.1.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                        <configuration>
+                            <keyFile>${user.home}/.gnupg/private-key.asc</keyFile>
+                            <keyPass>${gpg.passphrase}</keyPass>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
                 <version>3.2.1</version>
@@ -397,6 +413,22 @@
                             <publishingServerId>central</publishingServerId>
                             <autoPublish>false</autoPublish>
                         </configuration>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.simplify4u.plugins</groupId>
+                        <artifactId>sign-maven-plugin</artifactId>
+                        <version>1.1.0</version>
+                        <executions>
+                            <execution>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                                <configuration>
+                                    <keyFile>${user.home}/.gnupg/private-key.asc</keyFile>
+                                    <keyPass>${gpg.passphrase}</keyPass>
+                                </configuration>
+                            </execution>
+                        </executions>
                     </plugin>
                 </plugins>
             </build>
